@@ -1,0 +1,23 @@
+<h1>Listing grandparents</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @grandparents.each do |grandparent| %>
+  <tr>
+    <td><%= grandparent.name %></td>
+    <td><%= link_to 'Show', grandparent %></td>
+    <td><%= link_to 'Edit', edit_grandparent_path(grandparent) %></td>
+    <td><%= link_to 'Destroy', grandparent, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Grandparent', new_grandparent_path %>

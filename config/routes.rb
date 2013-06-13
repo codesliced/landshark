@@ -1,4 +1,13 @@
 Landshark::Application.routes.draw do
+  resources :children
+
+
+  resources :parents
+
+
+  resources :grandparents
+
+
   devise_for :users
 
   resources :messages
