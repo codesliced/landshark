@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- page located at http://example.com/sms_status_callback.xml -->
+<Response>
+    <Say>Hi, looks like you are trying to reach us.
+Give us a call at (877) 366-3076 and we can help you. Thanks.</Say>
+</Response>
