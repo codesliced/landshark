@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- page located at http://example.com/sms_status_callback.xml -->
 <Response>
-    <Say voice="woman">Hi, looks like you are trying to reach us.
-Give us a call at (877) 366-3076 and we can help you. Thanks.</Say>
+    <Say voice="woman">Hi, this is CalFresh, or Food Stamps. We sent you a text message about your quarterly report because you enrolled in our text message reminder service. If you do not want to receive any more messages, reply with STOP to the text message, or give us a call at (415) 558-1108. If you need help, please call the CalFresh call center at (415) 558-1001.</Say>
 </Response>
